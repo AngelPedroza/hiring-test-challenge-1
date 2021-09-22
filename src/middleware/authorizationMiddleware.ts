@@ -1,4 +1,4 @@
-/* eslint-disable import/prefer-default-export */
+
 import { BaseContext } from 'koa';
 import StatusCodes from 'http-status-codes';
 

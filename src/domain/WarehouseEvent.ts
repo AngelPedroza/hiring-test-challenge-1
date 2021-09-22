@@ -2,7 +2,6 @@ import {
   Column, Entity, Generated, JoinColumn, ManyToOne, PrimaryGeneratedColumn,
 } from 'typeorm';
 
-// eslint-disable-next-line import/no-cycle
 import Warehouse from './Warehouse';
 
 import WarehouseEventType from './WarehouseEventType';

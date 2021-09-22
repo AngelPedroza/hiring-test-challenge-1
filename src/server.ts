@@ -10,6 +10,7 @@ import errorHandler from './middleware/errorHandler';
 import config from './config';
 import logger from './logger';
 import connect from './connection';
+import "reflect-metadata";
 
 const app = new Koa();
 const swaggerDocument: any = swagger.loadDocumentSync(`${__dirname}/swagger/v1/v1.yaml`);

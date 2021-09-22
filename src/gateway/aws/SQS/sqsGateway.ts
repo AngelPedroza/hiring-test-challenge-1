@@ -57,7 +57,7 @@ async function processMessagesInBatch(messages: AWS.SQS.Message[], handler: (dat
     await handler(currentMessage);
     // eslint-disable-next-line no-await-in-loop
     await deleteMessage(currentMessage);
-    logger.info('Message from queue processed successfully.');
+    logger.info('Insterfaces from queue processed successfully.');
   }
 }
 
